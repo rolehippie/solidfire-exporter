@@ -1,0 +1,29 @@
+[Unit]
+Description=Prometheus exporter for Solidfire
+
+Wants=docker.service
+After=docker.service
+
+[Service]
+Restart=always
+RestartSec=10s
+EnvironmentFile=/etc/environment
+
+ExecStop=/bin/sh -c '/usr/bin/docker ps | /bin/grep %p 1> /dev/null && /usr/bin/docker stop %p || true'
+ExecStartPre=/bin/sh -c '/usr/bin/docker ps | /bin/grep %p 1> /dev/null && /usr/bin/docker kill %p || true'
+ExecStartPre=/bin/sh -c '/usr/bin/docker ps -a | /bin/grep %p 1> /dev/null && /usr/bin/docker rm %p || true'
+ExecStartPre=/usr/bin/docker pull {{ solidfire_exporter_image }}
+ExecStart=/usr/bin/docker run --rm \
+  --name %p \
+  --hostname %p \
+  --env-file /etc/default/solidfire-exporter \
+{% if solidfire_exporter_network | default(False) %}
+  --network {{ solidfire_exporter_network }} \
+{% endif %}
+{% if solidfire_exporter_publish | default(False) %}
+  --publish {{ solidfire_exporter_publish }}:9987 \
+{% endif %}
+  {{ solidfire_exporter_image }}
+
+[Install]
+WantedBy=multi-user.target

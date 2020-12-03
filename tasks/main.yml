@@ -1,0 +1,38 @@
+# Standards: 1.2
+---
+- name: Write default config
+  notify:
+    - Restart solidfire-exporter
+  template:
+    src: default.j2
+    dest: /etc/default/solidfire-exporter
+  tags:
+    - solidfire-exporter
+
+- name: Prepare service file
+  notify:
+    - Restart solidfire-exporter
+  template:
+    src: service.j2
+    dest: /etc/systemd/system/solidfire-exporter.service
+  tags:
+    - solidfire-exporter
+
+- name: Create docker network
+  when: solidfire_exporter_network | default(False)
+  docker_network:
+    name: "{{ solidfire_exporter_network }}"
+  tags:
+    - solidfire-exporter
+
+- name: Start exporter service
+  systemd:
+    name: solidfire-exporter
+    state: started
+    daemon_reload: True
+    masked: False
+    enabled: True
+  tags:
+    - solidfire-exporter
+
+...

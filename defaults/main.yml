@@ -1,0 +1,27 @@
+# Standards: 1.2
+---
+# @var solidfire_exporter_version:description: Version of the Docker image
+solidfire_exporter_version: latest
+
+# @var solidfire_exporter_image:description: Docker image to use and run
+solidfire_exporter_image: "mjavier/solidfire-exporter:{{ solidfire_exporter_version }}"
+
+# @var solidfire_exporter_network:description: A Docker network to assign the container
+solidfire_exporter_network:
+
+# @var solidfire_exporter_publish:description: Publish the Docker image on thet binding
+solidfire_exporter_publish: 9987
+
+# @var solidfire_exporter_endpoint:description: Endpoint to access Solidfire
+solidfire_exporter_endpoint: https://127.0.0.1/json-rpc/11.3
+
+# @var solidfire_exporter_username:description: Username to access Solidfire
+solidfire_exporter_username:
+
+# @var solidfire_exporter_password:description: Password to access Solidfire
+solidfire_exporter_password:
+
+# @var solidfire_exporter_insecure:description: Skip certificate verification
+solidfire_exporter_insecure: True
+
+...
