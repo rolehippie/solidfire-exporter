@@ -6,6 +6,9 @@
   template:
     src: default.j2
     dest: /etc/default/solidfire-exporter
+    owner: root
+    group: root
+    mode: u=rw,g=r,o=r
   tags:
     - solidfire-exporter
 
@@ -15,6 +18,9 @@
   template:
     src: service.j2
     dest: /etc/systemd/system/solidfire-exporter.service
+    owner: root
+    group: root
+    mode: u=rw,g=r,o=r
   tags:
     - solidfire-exporter
 
