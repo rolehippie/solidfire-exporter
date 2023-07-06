@@ -2,7 +2,7 @@
 ---
 # @var solidfire_exporter_version:description: Version of the Docker image
 # renovate: datasource=docker depName=mjavier/solidfire-exporter
-solidfire_exporter_version: v0.6.0
+solidfire_exporter_version: v0.6.1
 
 # @var solidfire_exporter_image:description: Docker image to use and run
 solidfire_exporter_image: "mjavier/solidfire-exporter:{{ solidfire_exporter_version }}"
