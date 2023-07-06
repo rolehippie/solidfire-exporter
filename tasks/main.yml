@@ -24,10 +24,20 @@
   tags:
     - solidfire-exporter
 
+- name: Pull docker image
+  when:
+    - solidfire_exporter_pull_image
+  docker_image:
+    name: "{{ solidfire_exporter_image }}"
+    source: pull
+  tags:
+    - solidfire-exporter
+
 - name: Create docker network
-  when: solidfire_exporter_network | default(False)
+  when:
+    - solidfire_exporter_network | default(False)
   docker_network:
-    name: "{{ solidfire_exporter_network }}"
+    name: '{{ solidfire_exporter_network }}'
   tags:
     - solidfire-exporter
 

@@ -6,6 +6,9 @@ solidfire_exporter_version: latest
 # @var solidfire_exporter_image:description: Docker image to use and run
 solidfire_exporter_image: "mjavier/solidfire-exporter:{{ solidfire_exporter_version }}"
 
+# @var solidfire_exporter_pull_image:description: Pull image as part of the tasks
+solidfire_exporter_pull_image: True
+
 # @var solidfire_exporter_network:description: A Docker network to assign the container
 solidfire_exporter_network:
 

@@ -23,6 +23,7 @@ Building and improving this Ansible role have been sponsored by my current and p
   - [solidfire_exporter_network](#solidfire_exporter_network)
   - [solidfire_exporter_password](#solidfire_exporter_password)
   - [solidfire_exporter_publish](#solidfire_exporter_publish)
+  - [solidfire_exporter_pull_image](#solidfire_exporter_pull_image)
   - [solidfire_exporter_username](#solidfire_exporter_username)
   - [solidfire_exporter_version](#solidfire_exporter_version)
 - [Discovered Tags](#discovered-tags)
@@ -98,6 +99,16 @@ Publish the Docker image on thet binding
 
 ```YAML
 solidfire_exporter_publish: 9987
+```
+
+### solidfire_exporter_pull_image
+
+Pull image as part of the tasks
+
+#### Default value
+
+```YAML
+solidfire_exporter_pull_image: true
 ```
 
 ### solidfire_exporter_username
