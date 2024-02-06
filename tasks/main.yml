@@ -1,9 +1,8 @@
-# Standards: 1.2
 ---
 - name: Write default config
   notify:
     - Restart solidfire-exporter
-  template:
+  ansible.builtin.template:
     src: default.j2
     dest: /etc/default/solidfire-exporter
     owner: root
@@ -15,7 +14,7 @@
 - name: Prepare service file
   notify:
     - Restart solidfire-exporter
-  template:
+  ansible.builtin.template:
     src: service.j2
     dest: /etc/systemd/system/solidfire-exporter.service
     owner: root
@@ -27,7 +26,7 @@
 - name: Pull docker image
   when:
     - solidfire_exporter_pull_image
-  docker_image:
+  community.docker.docker_image:
     name: "{{ solidfire_exporter_image }}"
     source: pull
   tags:
@@ -36,13 +35,13 @@
 - name: Create docker network
   when:
     - solidfire_exporter_network | default(False)
-  docker_network:
+  community.docker.docker_network:
     name: '{{ solidfire_exporter_network }}'
   tags:
     - solidfire-exporter
 
 - name: Start exporter service
-  systemd:
+  ansible.builtin.systemd:
     name: solidfire-exporter
     state: started
     daemon_reload: True
