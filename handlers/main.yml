@@ -1,6 +1,6 @@
 ---
 - name: Restart solidfire-exporter
-  systemd:
+  ansible.builtin.systemd:
     name: solidfire-exporter
     state: restarted
     daemon_reload: yes
