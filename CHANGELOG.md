@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.0.0](https://github.com/rolehippie/solidfire-exporter/compare/v1.1.0...v2.0.0) (2024-02-12)
+
+
+### Features
+
+* drop support for ubuntu 18.04 ([52877d4](https://github.com/rolehippie/solidfire-exporter/commit/52877d48efccedfb1955eaa2eccf38083bb357ac))
+* used full qualified collection names ([8a2a99a](https://github.com/rolehippie/solidfire-exporter/commit/8a2a99ad8acec8d75b042e72eb012e576f7e0421))
+
+
+### Bugfixes
+
+* remove meta requirements and document used collections ([5822881](https://github.com/rolehippie/solidfire-exporter/commit/582288194dbac3889047561976460efbf2aed00e))
+
 ## [1.1.0](https://github.com/rolehippie/solidfire-exporter/compare/v1.0.0...v1.1.0) (2023-07-10)
 
 
