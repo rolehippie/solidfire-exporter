@@ -56,7 +56,7 @@ Docker image to use and run
 #### Default value
 
 ```YAML
-solidfire_exporter_image: mjavier/solidfire-exporter:{{ 
+solidfire_exporter_image: ghcr.io/mjavier2k/solidfire-exporter:{{ 
   solidfire_exporter_version }}
 ```
 
@@ -127,7 +127,7 @@ Version of the Docker image
 #### Default value
 
 ```YAML
-solidfire_exporter_version: v0.6.1
+solidfire_exporter_version: v0.6.6
 ```
 
 ## Discovered Tags
