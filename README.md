@@ -127,7 +127,7 @@ Version of the Docker image
 #### Default value
 
 ```YAML
-solidfire_exporter_version: v0.6.6
+solidfire_exporter_version: v0.6.7
 ```
 
 ## Discovered Tags
