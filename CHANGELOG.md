@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.1.0](https://github.com/rolehippie/solidfire-exporter/compare/v2.0.0...v2.1.0) (2025-10-18)
+
+
+### Features
+
+* apply new repo structure and update linting ([b9407ee](https://github.com/rolehippie/solidfire-exporter/commit/b9407ee939cc6753b79b9a449125ed9b3fa5a4f3))
+* simplify docker network condition ([cbbfc75](https://github.com/rolehippie/solidfire-exporter/commit/cbbfc75e1e1c9c513341485894f5c3914ba115cf))
+* use new version and other image source ([a8aadab](https://github.com/rolehippie/solidfire-exporter/commit/a8aadab33b75455f9c6b7e9ff8375a391c528d25))
+
+
+### Bugfixes
+
+* **patch:** update ghcr.io/mjavier2k/solidfire-exporter docker tag to v0.6.7 ([#28](https://github.com/rolehippie/solidfire-exporter/issues/28)) ([a2c9d1a](https://github.com/rolehippie/solidfire-exporter/commit/a2c9d1a3f7824466842dd94084f02daa251957c3))
+
 ## [2.0.0](https://github.com/rolehippie/solidfire-exporter/compare/v1.1.0...v2.0.0) (2024-02-12)
 
 
