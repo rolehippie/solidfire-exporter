@@ -2,7 +2,7 @@
 - name: Converge
   hosts: all
   vars:
-    rebbitmq_exporter_publish: 127.0.0.1:9987
+    solidfire_exporter_publish: 127.0.0.1:9987
   roles:
     - role: rolehippie.docker
     - role: rolehippie.solidfire_exporter

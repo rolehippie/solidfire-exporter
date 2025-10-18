@@ -34,7 +34,7 @@
 
 - name: Create docker network
   when:
-    - solidfire_exporter_network | default(False)
+    - false if solidfire_exporter_network is none else (solidfire_exporter_network | length > 0)| default(false)
   community.docker.docker_network:
     name: '{{ solidfire_exporter_network }}'
   tags:
@@ -44,9 +44,9 @@
   ansible.builtin.systemd:
     name: solidfire-exporter
     state: started
-    daemon_reload: True
-    masked: False
-    enabled: True
+    daemon_reload: true
+    masked: false
+    enabled: true
   tags:
     - solidfire-exporter
 

@@ -3,6 +3,6 @@
   ansible.builtin.systemd:
     name: solidfire-exporter
     state: restarted
-    daemon_reload: yes
+    daemon_reload: true
 
 ...
