@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.0](https://github.com/rolehippie/solidfire-exporter/compare/v2.1.0...v3.0.0) (2025-12-08)
+
+
+### Features
+
+* **major:** update dependency community.docker to v5 ([#29](https://github.com/rolehippie/solidfire-exporter/issues/29)) ([c633736](https://github.com/rolehippie/solidfire-exporter/commit/c633736c96bff578d11ef598a0324682e4087203))
+
 ## [2.1.0](https://github.com/rolehippie/solidfire-exporter/compare/v2.0.0...v2.1.0) (2025-10-18)
 
 
