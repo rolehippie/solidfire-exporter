@@ -56,8 +56,7 @@ Docker image to use and run
 #### Default value
 
 ```YAML
-solidfire_exporter_image: ghcr.io/mjavier2k/solidfire-exporter:{{ 
-  solidfire_exporter_version }}
+solidfire_exporter_image: ghcr.io/mjavier2k/solidfire-exporter:{{ solidfire_exporter_version }}
 ```
 
 ### solidfire_exporter_insecure
