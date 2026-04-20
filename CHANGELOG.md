@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.2.0](https://github.com/rolehippie/solidfire-exporter/compare/v3.1.0...v3.2.0) (2026-04-20)
+
+### Dependencies
+
+* **minor:** update dependency community.docker to >=5.2.0,<5.3.0 ([#42](https://github.com/rolehippie/solidfire-exporter/issues/42)) ([4a49897](https://github.com/rolehippie/solidfire-exporter/commit/4a498975905ae54ddad9718f944a15c949f808a6))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([4a0cdc5](https://github.com/rolehippie/solidfire-exporter/commit/4a0cdc58c5d153a4b7d1c559b269835e7bc8678f))
+* **flake:** updated lockfile [skip ci] ([6e9a927](https://github.com/rolehippie/solidfire-exporter/commit/6e9a927fb251e552ccf9aa14f7b4a47a32799cff))
+* **flake:** updated lockfile [skip ci] ([cd9973b](https://github.com/rolehippie/solidfire-exporter/commit/cd9973b58292b0477de6927b731599b230615a71))
+* **flake:** updated lockfile [skip ci] ([7827efc](https://github.com/rolehippie/solidfire-exporter/commit/7827efce9e6384c211b1a2cd91e34197ea83cfdc))
+
 ## [3.1.0](https://github.com/rolehippie/solidfire-exporter/compare/v3.0.0...v3.1.0) (2026-03-30)
 
 ### Dependencies
