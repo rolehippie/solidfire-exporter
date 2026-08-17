@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.5.0](https://github.com/rolehippie/solidfire-exporter/compare/v3.4.0...v3.5.0) (2026-08-17)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-lint to v26.8.0 ([#52](https://github.com/rolehippie/solidfire-exporter/issues/52)) ([5fcf6a5](https://github.com/rolehippie/solidfire-exporter/commit/5fcf6a50010282c5f5f5c7a99cbc55d9e646b9f0))
+* **patch:** update dependency pipx:ansible-core to v2.21.3 ([#50](https://github.com/rolehippie/solidfire-exporter/issues/50)) ([c372104](https://github.com/rolehippie/solidfire-exporter/commit/c372104034443624992e9acd8f0c90636f1db2fa))
+* **patch:** update dependency pre-commit to v4.6.2 ([#51](https://github.com/rolehippie/solidfire-exporter/issues/51)) ([a3f8bdd](https://github.com/rolehippie/solidfire-exporter/commit/a3f8bddf8c6930bff7a6a060df01b0a03f84aacb))
+
 ## [3.4.0](https://github.com/rolehippie/solidfire-exporter/compare/v3.3.0...v3.4.0) (2026-08-10)
 
 ### Dependencies
