@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.6.0](https://github.com/rolehippie/solidfire-exporter/compare/v3.5.0...v3.6.0) (2026-08-24)
+
+### Dependencies
+
+* **minor:** update dependency pipx:molecule to v26.8.0 ([#53](https://github.com/rolehippie/solidfire-exporter/issues/53)) ([a6f6cc1](https://github.com/rolehippie/solidfire-exporter/commit/a6f6cc135671f53823341b21104fbad0dcdaf217))
+
 ## [3.5.0](https://github.com/rolehippie/solidfire-exporter/compare/v3.4.0...v3.5.0) (2026-08-17)
 
 ### Dependencies
