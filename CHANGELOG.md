@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.6.1](https://github.com/rolehippie/solidfire-exporter/compare/v3.6.0...v3.6.1) (2026-08-31)
+
+### Dependencies
+
+* **patch:** update dependency pipx:ansible-doctor to v8.4.1 ([#54](https://github.com/rolehippie/solidfire-exporter/issues/54)) ([cf006cb](https://github.com/rolehippie/solidfire-exporter/commit/cf006cb8315a6eaabe4e06fb98fd0e4d6484cc9e))
+
 ## [3.6.0](https://github.com/rolehippie/solidfire-exporter/compare/v3.5.0...v3.6.0) (2026-08-24)
 
 ### Dependencies
