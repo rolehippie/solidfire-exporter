@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.7.0](https://github.com/rolehippie/solidfire-exporter/compare/v3.6.1...v3.7.0) (2026-09-07)
+
+### Features
+
+* add separate requirements for molecule run ([399c636](https://github.com/rolehippie/solidfire-exporter/commit/399c636b49e894221fd173485d8624b871e0f3d2))
+
+### Dependencies
+
+* **minor:** update dependency community.docker to >=5.3.0,<5.4.0 ([#55](https://github.com/rolehippie/solidfire-exporter/issues/55)) ([36f60e6](https://github.com/rolehippie/solidfire-exporter/commit/36f60e6b9953249c8af6ccd4c3a765c9000490c0))
+
 ## [3.6.1](https://github.com/rolehippie/solidfire-exporter/compare/v3.6.0...v3.6.1) (2026-08-31)
 
 ### Dependencies
