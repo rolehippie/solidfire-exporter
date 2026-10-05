@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.8.0](https://github.com/rolehippie/solidfire-exporter/compare/v3.7.0...v3.8.0) (2026-10-05)
+
+### Dependencies
+
+* **minor:** update dependency community.docker to >=5.4.0,<5.5.0 ([#63](https://github.com/rolehippie/solidfire-exporter/issues/63)) ([cdcfb22](https://github.com/rolehippie/solidfire-exporter/commit/cdcfb22f6ecaa6f4de4a7f8c55c46ae319a48652))
+* **mise:** update dependency pipx:ansible-core to v2.21.4 ([#56](https://github.com/rolehippie/solidfire-exporter/issues/56)) ([3a8fe7e](https://github.com/rolehippie/solidfire-exporter/commit/3a8fe7e1e120fe18fcb93a39894ab94dc376925d))
+* **mise:** update dependency pipx:ansible-core to v2.21.5 ([#65](https://github.com/rolehippie/solidfire-exporter/issues/65)) ([ae0e939](https://github.com/rolehippie/solidfire-exporter/commit/ae0e9394a68b2923663b3bd3709f4c8b50f320e3))
+* **mise:** update dependency pipx:ansible-doctor to v8.4.2 ([#58](https://github.com/rolehippie/solidfire-exporter/issues/58)) ([046b22e](https://github.com/rolehippie/solidfire-exporter/commit/046b22ec2dec182949d48e9812d4366249a530d1))
+* **mise:** update dependency pipx:ansible-lint to v26.9.0 ([#59](https://github.com/rolehippie/solidfire-exporter/issues/59)) ([fe5aff2](https://github.com/rolehippie/solidfire-exporter/commit/fe5aff270e3ed8a8e65577c4687e4717eb6413bb))
+* **mise:** update dependency pipx:molecule to v26.9.0 ([#60](https://github.com/rolehippie/solidfire-exporter/issues/60)) ([d52598b](https://github.com/rolehippie/solidfire-exporter/commit/d52598b8c12c4cb22beece10a898b88c5852394a))
+* **mise:** update dependency prek to v0.5.3 ([#57](https://github.com/rolehippie/solidfire-exporter/issues/57)) ([891390a](https://github.com/rolehippie/solidfire-exporter/commit/891390a28d6e827024f56e4a3a79f5c3dc95d77e))
+* **mise:** update dependency prek to v0.5.4 ([#61](https://github.com/rolehippie/solidfire-exporter/issues/61)) ([3ce117a](https://github.com/rolehippie/solidfire-exporter/commit/3ce117a20ce2c044a225ffc754c667928f6ebb56))
+* **mise:** update dependency prek to v0.5.5 ([#64](https://github.com/rolehippie/solidfire-exporter/issues/64)) ([2f03d27](https://github.com/rolehippie/solidfire-exporter/commit/2f03d274b8d0f7557f24ffe2565e744f563434f2))
+
 ## [3.7.0](https://github.com/rolehippie/solidfire-exporter/compare/v3.6.1...v3.7.0) (2026-09-07)
 
 ### Features
